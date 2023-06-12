@@ -9,11 +9,12 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+  max-width: 700px;
 }
 
 .title {
   font-size: 72px;
-  background: linear-gradient(to bottom, #805AD5, grey);
+  background: linear-gradient(to bottom, #805ad5, grey);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -23,11 +24,11 @@
   font-weight: 300;
 }
 
-
 .image {
   object-fit: contain;
-  max-width: 700px;
   animation: float 3s infinite ease alternate;
+  max-width: 700px;
+  max-height: 700px;
 }
 
 @keyframes float {
