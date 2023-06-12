@@ -1,4 +1,4 @@
-.container {
+.item {
   display: flex;
   align-items: center;
   gap: 50px;
@@ -10,8 +10,10 @@
   border-radius: 3px;
 }
 
-.content {
-}
+/* .item:nth-child(2n+1){
+  flex-direction: row-reverse;
+} */
+
 
 .title {
   margin-bottom: 10px;
