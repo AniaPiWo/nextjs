@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 
 async function getData() {
   const res = await fetch("http://localhost:3000/api/posts", {
@@ -17,11 +17,10 @@ async function getData() {
 
 const Blog = async () => {
   const data = await getData();
-
   return (
-    <div className={styles.container}>
+    <div className={styles.mainContainer}>
       {data.map((item) => (
-        <Link href={`/blog/${item._id}`} className={styles.item} key={item.id}>
+        <Link href={`/blog/${item._id}`} className={styles.container} key={item.id}>
           <div className={styles.imageContainer}>
             <Image
               src={item.img}

@@ -17,6 +17,7 @@
     height: 400px;
     position: relative;
     background-size: cover!important;
+    color: #bbb!important;
 }
 
 .item:nth-child(1) {
@@ -32,7 +33,7 @@
 }
 
 .item:hover {
-    color: #805AD5;
+    color: #805AD5!important;
 }
 
 .title {

@@ -17,6 +17,11 @@
     gap: 20px;
 }
 
+.link:hover {
+    color: #805AD5;
+}
+
+
 .logout {
     padding: 5px 10px;
     border: none;
