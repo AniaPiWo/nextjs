@@ -23,3 +23,14 @@
   font-size: 18px;
   color: #999;
 }
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
